@@ -1,24 +1,109 @@
 \babel@toc {polish}{}\relax 
 \contentsline {chapter}{\numberline {1}Wprowadzenie}{3}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Badania literaturowe}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Kopie zapasowe i odzyskiwanie danych}{5}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Wstęp}{5}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Tworzenie kopii zapasowej całego systemu PostgreSQL \sphinxhyphen {} mechanizmy wbudowane}{5}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Tworzenie kopii zapasowych poszczególnych baz danych \sphinxhyphen {} mechanizmy wbudowane}{6}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Odzyskiwanie usuniętych lub uszkodzonych danych}{6}{subsection.2.1.4}%
-\contentsline {subsubsection}{Odtwarzanie tabel i innych obiektów logicznych}{6}{subsubsection*.3}%
-\contentsline {subsubsection}{Odtwarzanie usuniętej bazy danych}{7}{subsubsection*.4}%
-\contentsline {subsubsection}{Odtwarzanie przestrzeni tabel i pełnego klastra}{7}{subsubsection*.5}%
-\contentsline {subsubsection}{PITR i odzyskiwanie stanu sprzed błędu}{7}{subsubsection*.6}%
-\contentsline {subsection}{\numberline {2.1.5}Dedykowane oprogramowanie i skrypty zewnętrzne do automatyzacji}{7}{subsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.1.6}Wnioski}{8}{subsection.2.1.6}%
-\contentsline {chapter}{\numberline {3}Dokumentacja bazy danych \textendash {} Sklep elektroniczny}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Wybór zagadnienia i identyfikacja danych}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Opis procesów i towarzyszących im danych}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Prototypowy plik JSON}{10}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Dobór typów danych}{10}{subsection.3.3.1}%
-\contentsline {section}{\numberline {3.4}Modelowanie konceptualne i logiczne}{10}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Model koncepcyjny}{10}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Model koncepcyjny \textendash {} notacja Chena}{11}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Model logiczny i normalizacja}{11}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Schemat notacji IE po normalizacji}{12}{subsection.3.4.4}%
+\contentsline {section}{\numberline {2.1}Sprzęt dla bazy danych}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Konfiguracja bazy danych PostgreSQL}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Wstęp}{5}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Podstawowe parametry}{5}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Lokalizacja i struktura katalogów PostgreSQL}{6}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Środowiska i profile}{6}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Automatyzacja}{7}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Przykłady}{7}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Najlepsze praktyki}{7}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8}Podsumowanie}{7}{subsection.2.2.8}%
+\contentsline {subsection}{\numberline {2.2.9}Szczegółowe omówienie plików konfiguracyjnych}{7}{subsection.2.2.9}%
+\contentsline {subsection}{\numberline {2.2.10}postgresql.conf}{8}{subsection.2.2.10}%
+\contentsline {subsubsection}{Najważniejsze parametry}{8}{subsubsection*.3}%
+\contentsline {paragraph}{Połączenia sieciowe}{8}{paragraph*.4}%
+\contentsline {paragraph}{Pamięć i wydajność}{8}{paragraph*.5}%
+\contentsline {paragraph}{Logowanie}{9}{paragraph*.6}%
+\contentsline {paragraph}{Bezpieczeństwo}{9}{paragraph*.7}%
+\contentsline {paragraph}{Replikacja i WAL}{9}{paragraph*.8}%
+\contentsline {subsubsection}{Przykładowa konfiguracja}{10}{subsubsection*.9}%
+\contentsline {subsubsection}{Weryfikacja konfiguracji}{10}{subsubsection*.10}%
+\contentsline {subsection}{\numberline {2.2.11}pg\_hba.conf}{10}{subsection.2.2.11}%
+\contentsline {subsubsection}{Składnia wpisu}{11}{subsubsection*.11}%
+\contentsline {subsubsection}{Najczęściej używane metody uwierzytelniania}{11}{subsubsection*.12}%
+\contentsline {subsubsection}{Przykładowa konfiguracja}{12}{subsubsection*.13}%
+\contentsline {subsubsection}{Najlepsze praktyki}{12}{subsubsection*.14}%
+\contentsline {subsection}{\numberline {2.2.12}pg\_ident.conf}{12}{subsection.2.2.12}%
+\contentsline {subsubsection}{Zastosowanie}{13}{subsubsection*.15}%
+\contentsline {subsubsection}{Składnia wpisu}{13}{subsubsection*.16}%
+\contentsline {subsubsection}{Przykładowa konfiguracja}{13}{subsubsection*.17}%
+\contentsline {subsubsection}{Najlepsze praktyki}{13}{subsubsection*.18}%
+\contentsline {section}{\numberline {2.3}Kontrola i konserwacja}{14}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Wprowadzenie}{14}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Zarządzanie przestrzenią i mechanizm współbieżności}{14}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Optymalizacja i statystyki planisty zapytań}{14}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Bezpieczeństwo i rygorystyczna kontrola dostępu}{15}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Strategie zabezpieczania przed utratą danych}{15}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Podsumowanie}{15}{subsection.2.3.6}%
+\contentsline {section}{\numberline {2.4}Monitorowanie i diagnostyka}{16}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Wstęp}{16}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Sesje i użytkownicy}{16}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Śledzenie dostępu użytkowników do tabel}{16}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Błędy dziennika, logi i raporty}{17}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Monitorowanie na poziomie systemu operacyjnego}{17}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Monitorowanie serwera}{17}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}Znaczenie monitorowania i diagnostyki w bazach danych}{18}{subsection.2.4.7}%
+\contentsline {subsection}{\numberline {2.4.8}Podsumowanie}{18}{subsection.2.4.8}%
+\contentsline {subsection}{\numberline {2.4.9}Źródła}{18}{subsection.2.4.9}%
+\contentsline {section}{\numberline {2.5}Wydajność, skalowanie i replikacja danych}{18}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Wstęp}{18}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Wydajność baz danych}{19}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Skalowanie: Pionowe vs. Poziome}{19}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Replikacja danych i wysoka dostępność}{19}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Wyzwania i kompromisy architektoniczne}{19}{subsection.2.5.5}%
+\contentsline {subsection}{\numberline {2.5.6}Podsumowanie}{20}{subsection.2.5.6}%
+\contentsline {section}{\numberline {2.6}Partycjonowanie danych}{20}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Bezpieczeństwo Baz Danych}{20}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}1. Model bezpieczeństwa CIA i ochrona infrastruktury}{20}{subsection.2.7.1}%
+\contentsline {subsubsection}{Triada CIA w środowisku bazodanowym}{20}{subsubsection*.31}%
+\contentsline {subsubsection}{Izolacja sieciowa i architektura chmurowa (VPC)}{20}{subsubsection*.32}%
+\contentsline {subsubsection}{Konteneryzacja a bezpieczeństwo bazy}{21}{subsubsection*.33}%
+\contentsline {subsection}{\numberline {2.7.2}2. Ataki na bazy danych i luki w zabezpieczeniach}{21}{subsection.2.7.2}%
+\contentsline {subsubsection}{Wstrzykiwanie kodu SQL (SQL Injection)}{21}{subsubsection*.34}%
+\contentsline {subsubsection}{Ataki NoSQL Injection}{22}{subsubsection*.35}%
+\contentsline {subsubsection}{Przepełnienie bufora (Buffer Overflow) w DBMS}{22}{subsubsection*.36}%
+\contentsline {subsubsection}{Odmowa Usługi (DoS) na poziomie bazy danych}{23}{subsubsection*.37}%
+\contentsline {subsubsection}{Automatyzacja ataków: Narzędzia audytowe}{23}{subsubsection*.38}%
+\contentsline {subsection}{\numberline {2.7.3}3. Zarządzanie tożsamością, uwierzytelnianie i autoryzacja}{23}{subsection.2.7.3}%
+\contentsline {subsubsection}{Uwierzytelnianie w bazach danych}{23}{subsubsection*.39}%
+\contentsline {subsubsection}{Autoryzacja i modele kontroli dostępu}{24}{subsubsection*.40}%
+\contentsline {subsubsection}{Bezpieczeństwo na poziomie wierszy (Row\sphinxhyphen {}Level Security)}{24}{subsubsection*.41}%
+\contentsline {subsubsection}{Zarządzanie poświadczeniami aplikacji (Secrets Management)}{24}{subsubsection*.42}%
+\contentsline {subsection}{\numberline {2.7.4}4. Kryptografia w bazach danych}{25}{subsection.2.7.4}%
+\contentsline {subsubsection}{Szyfrowanie danych w spoczynku (Data at Rest)}{25}{subsubsection*.43}%
+\contentsline {subsubsection}{Szyfrowanie danych w tranzycie (Data in Transit)}{25}{subsubsection*.44}%
+\contentsline {subsubsection}{Szyfrowanie na poziomie klienta (Client\sphinxhyphen {}Side Encryption)}{25}{subsubsection*.45}%
+\contentsline {subsubsection}{Dynamiczne maskowanie danych i funkcje skrótu}{26}{subsubsection*.46}%
+\contentsline {subsection}{\numberline {2.7.5}5. Audyt, logowanie i wykrywanie anomalii}{26}{subsection.2.7.5}%
+\contentsline {subsubsection}{Znaczenie audytu i rodzaje logów bazodanowych}{26}{subsubsection*.47}%
+\contentsline {subsubsection}{Centralizacja logów i systemy SIEM}{26}{subsubsection*.48}%
+\contentsline {subsubsection}{Database Activity Monitoring (DAM) i wykrywanie anomalii}{27}{subsubsection*.49}%
+\contentsline {subsection}{\numberline {2.7.6}6. Bezpieczeństwo kopii zapasowych i Disaster Recovery}{27}{subsection.2.7.6}%
+\contentsline {subsubsection}{Zasada 3\sphinxhyphen {}2\sphinxhyphen {}1 i niezmienność kopii (Immutable Backups)}{27}{subsubsection*.50}%
+\contentsline {subsubsection}{Szyfrowanie archiwów i zarządzanie kluczami}{27}{subsubsection*.51}%
+\contentsline {subsubsection}{Disaster Recovery (DR) i wskaźniki RTO/RPO}{28}{subsubsection*.52}%
+\contentsline {section}{\numberline {2.8}Kopie zapasowe i odzyskiwanie danych}{28}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Wstęp}{28}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Tworzenie kopii zapasowej całego systemu PostgreSQL \sphinxhyphen {} mechanizmy wbudowane}{28}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Tworzenie kopii zapasowych poszczególnych baz danych \sphinxhyphen {} mechanizmy wbudowane}{29}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}Odzyskiwanie usuniętych lub uszkodzonych danych}{29}{subsection.2.8.4}%
+\contentsline {subsubsection}{Odtwarzanie tabel i innych obiektów logicznych}{29}{subsubsection*.53}%
+\contentsline {subsubsection}{Odtwarzanie usuniętej bazy danych}{30}{subsubsection*.54}%
+\contentsline {subsubsection}{Odtwarzanie przestrzeni tabel i pełnego klastra}{30}{subsubsection*.55}%
+\contentsline {subsubsection}{PITR i odzyskiwanie stanu sprzed błędu}{30}{subsubsection*.56}%
+\contentsline {subsection}{\numberline {2.8.5}Dedykowane oprogramowanie i skrypty zewnętrzne do automatyzacji}{30}{subsection.2.8.5}%
+\contentsline {subsection}{\numberline {2.8.6}Wnioski}{31}{subsection.2.8.6}%
+\contentsline {chapter}{\numberline {3}Dokumentacja bazy danych \textendash {} Sklep elektroniczny}{33}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Wybór zagadnienia i identyfikacja danych}{33}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Opis procesów i towarzyszących im danych}{33}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Prototypowy plik JSON}{34}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Dobór typów danych}{34}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Modelowanie konceptualne i logiczne}{34}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Model koncepcyjny}{34}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Model koncepcyjny \textendash {} notacja Chena}{35}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Model logiczny i normalizacja}{35}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Schemat notacji IE po normalizacji}{36}{subsection.3.4.4}%
+\contentsline {chapter}{\numberline {4}Wnioski}{37}{chapter.4}%
