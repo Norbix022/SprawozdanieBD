@@ -135,12 +135,6 @@ Główne działania podjęte podczas normalizacji:
 Schemat notacji IE po normalizacji
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note::
-
-   W tym miejscu należy wstawić schemat logiczny bazy danych w notacji IE.
-   Diagram można przygotować jako osobny plik graficzny i osadzić później
-   w dokumentacji.
-
 Przykładowe osadzenie diagramu po wyeksportowaniu go do pliku graficznego::
 
    .. image:: schemat_chen.png
