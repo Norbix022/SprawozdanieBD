@@ -147,6 +147,6 @@ Przykładowe osadzenie diagramu po wyeksportowaniu go do pliku graficznego::
       :alt: Model koncepcyjny w notacji Chena
       :width: 80%
 
-   .. image:: schemat_ie.png
+   .. image:: source/rozdzial_3/schemat_ie.png
       :alt: Schemat logiczny bazy danych w notacji IE
       :width: 80%
