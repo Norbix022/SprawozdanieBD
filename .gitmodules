@@ -1,24 +1,4 @@
 [submodule "source/rozdzial_2/rozdzial_28"]
 	path = source/rozdzial_2/rozdzial_28
 	url = git@github.com:Koko9077/Kopie-zapasowe-i-odzyskiwanie-danych.git
-[submodule "source/rozdzial_2/rozdzial_22"]
-	path = source/rozdzial_2/rozdzial_22
-	url = https://github.com/Youarecheck/Bazy_Danych_Tematyczne_Repo_MK.git
-[submodule "source/rozdzial_2/rozdzial_21"]
-	path = source/rozdzial_2/rozdzial_21
-	url = https://github.com/karaskamil/Sprzet-dla-bazy-danych.git
-[submodule "source/rozdzial_2/rozdzial_23"]
-	path = source/rozdzial_2/rozdzial_23
-	url = https://github.com/pawlos1337/Bazy-danych-temat.git
-[submodule "source/rozdzial_2/rozdzial_24"]
-	path = source/rozdzial_2/rozdzial_24
-	url = https://github.com/OskarProgrammer/monitorowanie_i_diagnostyka.git
-[submodule "source/rozdzial_2/rozdzial_25"]
-	path = source/rozdzial_2/rozdzial_25
-	url = https://github.com/KMachoK/Tematyczne.git
-[submodule "source/rozdzial_2/rozdzial_26"]
-	path = source/rozdzial_2/rozdzial_26
-	url = https://github.com/domino0472/Partycjonowani-Danych
-[submodule "source/rozdzial_2/rozdzial_27"]
-	path = source/rozdzial_2/rozdzial_27
-	url = https://github.com/oski486/BazyDanych-Subject.git
+
