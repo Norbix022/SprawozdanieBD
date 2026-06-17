@@ -110,4 +110,22 @@ Wariant SQLite został dostosowany do prostszego modelu typów danych oferowaneg
 4.2. Wybór mechanizmów wsadowego wprowadzania danych
 ----------------------------------------------------
 
-W celu sprawnego zainicjowania bazy danymi testowymi zrezygnowano z ręcznego przygotowywania pojedynczych instrukcji ``INSERT`` na rzecz automatyzacji realizowanej w języku Python. Dane wejściowe przygotowano w postaci plików ``CSV`` oraz struktury ``JSON``, co umożliwiło ich łatwe przetwarzanie i przenoszenie pomiędzy 
+W celu sprawnego zainicjowania bazy danymi testowymi zrezygnowano z ręcznego przygotowywania pojedynczych instrukcji ``INSERT`` na rzecz automatyzacji realizowanej w języku Python. Dane wejściowe przygotowano w postaci plików ``CSV`` oraz struktury ``JSON``, co umożliwiło ich łatwe przetwarzanie i przenoszenie pomiędzy wariantami bazy.
+
+Do komunikacji z obiema bazami wykorzystano odpowiednie interfejsy programistyczne: moduł ``sqlite3`` dla SQLite oraz bibliotekę ORM ``SQLAlchemy`` dla PostgreSQL. Istotnym elementem implementacji było zastosowanie wstawiania wsadowego przy użyciu funkcji ``executemany()``. Mechanizm ten pozwala przesyłać wiele rekordów w ramach jednego wywołania, co ogranicza narzut komunikacyjny i skraca czas zasilania bazy danymi.
+
+Zastosowanie podejścia wsadowego ma szczególne znaczenie w przypadku większej liczby rekordów, ponieważ redukuje liczbę pojedynczych operacji na serwerze i pozwala lepiej wykorzystać mechanizm transakcyjny systemu zarządzania bazą danych. W praktyce przekłada się to na większą wydajność niż przy ręcznym wykonywaniu kolejnych poleceń ``INSERT``.
+
+4.3. Komentarz do procesu wprowadzania danych
+---------------------------------------------
+
+Proces zasilania bazy danych musiał uwzględniać zależności wynikające z więzów integralności referencyjnej. Z tego względu kolejność importu danych nie mogła być przypadkowa i musiała odzwierciedlać strukturę relacyjną modelu.
+
+Kolejność wprowadzania danych była następująca:
+
+1. W pierwszej kolejności zaimportowano dane do tabel niezależnych, czyli ``kategorie`` oraz ``klienci``.
+2. Następnie zasilono tabelę ``produkty``. Operacja ta była możliwa dopiero po wcześniejszym utworzeniu kategorii, ponieważ każdy produkt musi być przypisany do istniejącej kategorii.
+3. W kolejnym kroku wprowadzono rekordy do tabeli ``zamowienia``, przypisując je do istniejących klientów.
+4. Na końcu uzupełniono tabelę ``szczegoly_zamowienia``, która pełni funkcję encji asocjacyjnej i łączy identyfikatory zamówień oraz produktów. Wymaga to wcześniejszego istnienia obu powiązanych rekordów.
+
+Takie uporządkowanie procesu importu danych wynika bezpośrednio z konstrukcji schematu relacyjnego i stanowi warunek poprawnego zachowania integralności bazy. W praktyce oznacza to, że dane nadrzędne muszą zostać zapisane przed danymi zależnymi.
