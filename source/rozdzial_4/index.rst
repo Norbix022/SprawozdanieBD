@@ -2,6 +2,8 @@
 4. Definiowanie bazy danych i wprowadzanie danych do bazy
 =========================================================
 
+**Autorzy:** Norbert Antonovitch, Michał Bednarczyk, Jan Balazs de Borbatviz
+
 4.1. Definicja bazy danych w wariantach PostgreSQL i SQLite
 ----------------------------------------------------------
 
