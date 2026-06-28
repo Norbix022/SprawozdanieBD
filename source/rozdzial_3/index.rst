@@ -2,7 +2,7 @@
 Planowanie baz danych i tworzenie dokumentacji
 ==============================================
 
-:Autor: Norbert Antonovitch, Michał Bednarczyk, Jan Balazs de Borbatviz
+:Autorzy: Norbert Antonovitch, Michał Bednarczyk, Jan Balazs de Borbatviz
 
 Wybór zagadnienia i identyfikacja danych
 ----------------------------------------
