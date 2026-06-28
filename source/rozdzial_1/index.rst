@@ -2,8 +2,7 @@
 Wstęp
 =====
 
-:Autorzy:
-    1. Michał Bednarczyk
+:Autor: Michał Bednarczyk
 
 Wstęp do sprawozdania
 =====================
