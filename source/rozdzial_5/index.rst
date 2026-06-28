@@ -6,8 +6,8 @@ Zapytania do bazy danych
 
 Scieżki do wykonanych zapytan na naszej bazie:
 
-Zapytania
+Zapytania SQLITE
 student02:
 
 Zapytania PostgreSQL
-student01: ``Laboratorium7/Lista6/CLABH01.ipynb``
+student01:``/Laboratorium7/Lista6/CLABH01.ipynb``
