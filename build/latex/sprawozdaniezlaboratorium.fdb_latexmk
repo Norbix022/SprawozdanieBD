@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex sprawozdaniezlaboratorium.idx"] 1781556300.59972 "sprawozdaniezlaboratorium.idx" "sprawozdaniezlaboratorium.ind" "sprawozdaniezlaboratorium" 1781564971.91802 0
-  "sprawozdaniezlaboratorium.idx" 1781564971.22593 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex sprawozdaniezlaboratorium.idx"] 1781556300.59972 "sprawozdaniezlaboratorium.idx" "sprawozdaniezlaboratorium.ind" "sprawozdaniezlaboratorium" 1781729476.9694 0
+  "sprawozdaniezlaboratorium.idx" 1781729476.2725 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "sprawozdaniezlaboratorium.ilg"
   "sprawozdaniezlaboratorium.ind"
   (rewritten before read)
-["pdflatex"] 1781564970.80325 "sprawozdaniezlaboratorium.tex" "sprawozdaniezlaboratorium.pdf" "sprawozdaniezlaboratorium" 1781564971.91814 0
+["pdflatex"] 1781729475.86254 "sprawozdaniezlaboratorium.tex" "sprawozdaniezlaboratorium.pdf" "sprawozdaniezlaboratorium" 1781729476.9695 0
   "/etc/texmf/web2c/texmf.cnf" 1772394163.08845 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -151,7 +151,6 @@
   "/usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm" 1480098718 11484 431d8013ae6931f9326b9a0f492d2a5e ""
   "/usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr.tfm" 1480098718 11504 0b76b46eb90907e684139293e03c466a ""
   "/usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmri.tfm" 1480098718 11356 da1519f442d8a49b81c86cbaf25ef79f ""
-  "/usr/share/texmf/fonts/tfm/public/tex-gyre/ts1-qtmb.tfm" 1480098718 1608 bde4475c6eb5aa292519d95aa26b6413 ""
   "/usr/share/texmf/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm" 1480098718 1600 20cdf11dab97d5d39e847571f9314407 ""
   "/usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb" 1480098745 112164 176018dd42fcc60204173fa10e357da5 ""
   "/usr/share/texmf/fonts/type1/public/tex-gyre/qhvbi.pfb" 1480098745 104926 77ce2f0433ac7fd33dbe9968d127e4fb ""
@@ -170,7 +169,7 @@
   "schemat_chen.png" 1781555657.35012 173730 7e20d79dbcddd21bd956dadf253d3446 ""
   "schemat_ie.png" 1781552600.82497 105378 231b44fcf62b5b96f896cce6866283aa ""
   "sphinx.sty" 1738319295 54119 967a674353157928503df7cae9b6165e ""
-  "sphinxhighlight.sty" 1781564969.44991 7553 83fb52292c17957d9f4aadcb28c57a87 ""
+  "sphinxhighlight.sty" 1781729474.50847 7553 83fb52292c17957d9f4aadcb28c57a87 ""
   "sphinxlatexadmonitions.sty" 1738319295 19110 2855832b1a32f04033523b9919260ac9 ""
   "sphinxlatexcontainers.sty" 1738319295 900 d61f923db071a7b54d3cee8a1e6935d3 ""
   "sphinxlatexgraphics.sty" 1738319295 4918 c9266041d02bc615d54b890e96e3acd3 ""
@@ -185,16 +184,16 @@
   "sphinxlatexstyletext.sty" 1738319295 6759 9e932c65374cfb62686485d331bc975c ""
   "sphinxlatextables.sty" 1738319295 57643 7f1013c2fa11942370d867527bdda568 ""
   "sphinxmanual.cls" 1738319295 4241 7b0d7a37df7b5715fb0dbd585c52ecdb ""
-  "sphinxmessages.sty" 1781564969.58191 743 31c217da39d039fd875c9cfed0d1a0d3 ""
+  "sphinxmessages.sty" 1781729474.64047 743 31c217da39d039fd875c9cfed0d1a0d3 ""
   "sphinxoptionsgeometry.sty" 1738319295 2060 6c27b3eba37bde592ae8908ab2c1ac0f ""
   "sphinxoptionshyperref.sty" 1738319295 1093 e468489bae7631a7f387b4b0f7bc15d4 ""
   "sphinxpackageboxes.sty" 1738319295 36106 1be2053eb1cb9b083b3a75e3657bcb24 ""
   "sphinxpackagefootnote.sty" 1738319295 15330 2fb656b6ce8cd1f6aba2d1c508fb51e5 ""
-  "sprawozdaniezlaboratorium.aux" 1781564971.83794 33728 b4b1a7ff5c656c21d74d95e686dadb3d "pdflatex"
+  "sprawozdaniezlaboratorium.aux" 1781729476.8885 34585 3a9efaab821e3780aa8c99459177f7c8 "pdflatex"
   "sprawozdaniezlaboratorium.ind" 1781556300.67868 0 d41d8cd98f00b204e9800998ecf8427e "makeindex sprawozdaniezlaboratorium.idx"
-  "sprawozdaniezlaboratorium.out" 1781564971.84194 24970 7780609823e8f2a4251d729fb7632599 "pdflatex"
-  "sprawozdaniezlaboratorium.tex" 1781564969.57791 131044 dc5636686f83da31e028bf0bedeaf8a5 ""
-  "sprawozdaniezlaboratorium.toc" 1781564971.84194 10421 0bdc783c663dcecbd481e751bef45fe1 "pdflatex"
+  "sprawozdaniezlaboratorium.out" 1781729476.8925 25981 83f28bc8e8899cf1764ca8792ca94636 "pdflatex"
+  "sprawozdaniezlaboratorium.tex" 1781729474.63647 141623 5d3332f0acf9d398482f7773c53ae0ad ""
+  "sprawozdaniezlaboratorium.toc" 1781729476.8925 10711 00c5d08408402269e6753c5d42e67ec4 "pdflatex"
   (generated)
   "sprawozdaniezlaboratorium.aux"
   "sprawozdaniezlaboratorium.idx"

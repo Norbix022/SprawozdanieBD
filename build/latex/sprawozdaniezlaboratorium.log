@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.3.1)  16 JUN 2026 01:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.3.1)  17 JUN 2026 22:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -995,7 +995,7 @@ Rozdzia\l  3.
 [33]
 
 [34]
-<schemat_chen.png, id=716, 1959.57094pt x 1318.17468pt>
+<schemat_chen.png, id=725, 1959.57094pt x 1318.17468pt>
 File: schemat_chen.png Graphic file (type png)
 <use schemat_chen.png>
 Package pdftex.def Info: schemat_chen.png  used on input line 2286.
@@ -1003,7 +1003,7 @@ Package pdftex.def Info: schemat_chen.png  used on input line 2286.
 
 
 [35 <./schemat_chen.png (PNG copy)>]
-<schemat_ie.png, id=723, 1207.51125pt x 671.50874pt>
+<schemat_ie.png, id=732, 1207.51125pt x 671.50874pt>
 File: schemat_ie.png Graphic file (type png)
 <use schemat_ie.png>
 Package pdftex.def Info: schemat_ie.png  used on input line 2314.
@@ -1012,25 +1012,33 @@ Package pdftex.def Info: schemat_ie.png  used on input line 2314.
 
 [36 <./schemat_ie.png>]
 Rozdzia\l  4.
-(./sprawozdaniezlaboratorium.ind)
+
 
 [37
 
-] (./sprawozdaniezlaboratorium.aux)
+]
+Underfull \vbox (badness 1097) detected at line 2429
+ []
+
+
+
+[38] (./sprawozdaniezlaboratorium.ind)
+
+[39] (./sprawozdaniezlaboratorium.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `sprawozdaniezlaboratorium.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 7780609823E8F2A4251D729FB7632599;24970.
+(rerunfilecheck)             Checksum: 83F28BC8E8899CF1764CA8792CA94636;25981.
  ) 
 Here is how much of TeX's memory you used:
- 20780 strings out of 473197
- 374358 string characters out of 5718606
- 791137 words of memory out of 5000000
- 43393 multiletter control sequences out of 15000+600000
- 628561 words of font info for 97 fonts, out of 8000000 for 9000
+ 20785 strings out of 473197
+ 374572 string characters out of 5718606
+ 818416 words of memory out of 5000000
+ 43395 multiletter control sequences out of 15000+600000
+ 628183 words of font info for 96 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  72i,11n,82p,1214b,659s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Fr
@@ -1042,10 +1050,10 @@ e1/public/tex-gyre/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 txfonts/t1xbtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1
 xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tcxtt.pfb>
-Output written on sprawozdaniezlaboratorium.pdf (41 pages, 587634 bytes).
+Output written on sprawozdaniezlaboratorium.pdf (43 pages, 592437 bytes).
 PDF statistics:
- 829 PDF objects out of 1000 (max. 8388607)
- 755 compressed objects within 8 object streams
- 211 named destinations out of 1000 (max. 500000)
- 895 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 845 PDF objects out of 1000 (max. 8388607)
+ 770 compressed objects within 8 object streams
+ 215 named destinations out of 1000 (max. 500000)
+ 911 words of extra memory for PDF output out of 10000 (max. 10000000)
 
