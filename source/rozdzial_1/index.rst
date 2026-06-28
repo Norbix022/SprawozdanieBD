@@ -1,6 +1,6 @@
-================
-Wstęp oraz linki
-================
+=====
+Wstęp
+=====
 
 :Autorzy:
     1. Michał Bednarczyk
