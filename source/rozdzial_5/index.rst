@@ -18,16 +18,17 @@ student01:``/Laboratorium7/Lista6/CLABH01.ipynb``
 Funkcje zapytań dla PostgreSQL
 ------------------------------
 
-.. automodule:: zapytania_PostgreSQL
+.. automodule:: zapytania_postgresql
    :members:
    :undoc-members:
    :show-inheritance:
-
+   :member-order: bysource
 
 Funkcje zapytań dla SQLITE
 --------------------------
 
-.. automodule:: SQLITE
+.. automodule:: zapytania_sqlite
    :members:
    :undoc-members:
    :show-inheritance:
+   :member-order: bysource

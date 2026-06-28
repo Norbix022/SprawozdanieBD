@@ -1,0 +1,51 @@
+\begin{sphinxtheindex}
+\let\bigletter\sphinxstyleindexlettergroup
+\let\spxpagem \sphinxstyleindexpagemain
+\let\spxentry \sphinxstyleindexentry
+\let\spxextra \sphinxstyleindexextra
+
+  \bigletter C
+  \item \spxentry{cennik\_opisowy()}\spxextra{in module zapytania\_sqlite}, \hyperpage{40}
+  \item \spxentry{czas\_od\_zamowienia()}\spxextra{in module zapytania\_sqlite}, \hyperpage{40}
+
+  \indexspace
+  \bigletter M
+  \item \spxentry{module}
+    \subitem \spxentry{zapytania\_postgresql}, \hyperpage{38}
+    \subitem \spxentry{zapytania\_sqlite}, \hyperpage{39}
+
+  \indexspace
+  \bigletter O
+  \item \spxentry{oblicz\_statystyki\_sprzedazy()}\spxextra{in module zapytania\_postgresql}, 
+		\hyperpage{38}
+
+  \indexspace
+  \bigletter P
+  \item \spxentry{pobierz\_pelny\_paragon()}\spxextra{in module zapytania\_postgresql}, 
+		\hyperpage{38}
+  \item \spxentry{pobierz\_wizytowki\_klientow()}\spxextra{in module zapytania\_postgresql}, 
+		\hyperpage{38}
+
+  \indexspace
+  \bigletter R
+  \item \spxentry{raport\_domen\_pocztowych()}\spxextra{in module zapytania\_sqlite}, 
+		\hyperpage{39}
+
+  \indexspace
+  \bigletter T
+  \item \spxentry{terminy\_platnosci()}\spxextra{in module zapytania\_sqlite}, \hyperpage{40}
+
+  \indexspace
+  \bigletter Z
+  \item \spxentry{zapytania\_postgresql}
+    \subitem \spxentry{module}, \hyperpage{38}
+  \item \spxentry{zapytania\_sqlite}
+    \subitem \spxentry{module}, \hyperpage{39}
+  \item \spxentry{zawartosc\_zamowien\_w\_linii()}\spxextra{in module zapytania\_sqlite}, 
+		\hyperpage{40}
+  \item \spxentry{znajdz\_asortyment\_premium()}\spxextra{in module zapytania\_postgresql}, 
+		\hyperpage{39}
+  \item \spxentry{znajdz\_produkty\_bez\_zamowien()}\spxextra{in module zapytania\_postgresql}, 
+		\hyperpage{39}
+
+\end{sphinxtheindex}

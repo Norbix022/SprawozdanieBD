@@ -7,7 +7,10 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
-    "sphinx (>=9.1.0,<10.0.0)"
+    "sphinx (>=9.1.0,<10.0.0)",
+    "nbsphinx (>=0.9.8,<0.10.0)",
+    "ipynb (>=0.5.1,<0.6.0)",
+    "pandas (>=3.0.4,<4.0.0)"
 ]
 
 

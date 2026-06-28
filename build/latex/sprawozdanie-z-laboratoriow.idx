@@ -1,0 +1,14 @@
+\indexentry{module@\spxentry{module}!zapytania\_postgresql@\spxentry{zapytania\_postgresql}|hyperpage}{38}
+\indexentry{zapytania\_postgresql@\spxentry{zapytania\_postgresql}!module@\spxentry{module}|hyperpage}{38}
+\indexentry{pobierz\_wizytowki\_klientow() (in module zapytania\_postgresql)@\spxentry{pobierz\_wizytowki\_klientow()}\spxextra{in module zapytania\_postgresql}|hyperpage}{38}
+\indexentry{oblicz\_statystyki\_sprzedazy() (in module zapytania\_postgresql)@\spxentry{oblicz\_statystyki\_sprzedazy()}\spxextra{in module zapytania\_postgresql}|hyperpage}{38}
+\indexentry{pobierz\_pelny\_paragon() (in module zapytania\_postgresql)@\spxentry{pobierz\_pelny\_paragon()}\spxextra{in module zapytania\_postgresql}|hyperpage}{38}
+\indexentry{znajdz\_produkty\_bez\_zamowien() (in module zapytania\_postgresql)@\spxentry{znajdz\_produkty\_bez\_zamowien()}\spxextra{in module zapytania\_postgresql}|hyperpage}{39}
+\indexentry{znajdz\_asortyment\_premium() (in module zapytania\_postgresql)@\spxentry{znajdz\_asortyment\_premium()}\spxextra{in module zapytania\_postgresql}|hyperpage}{39}
+\indexentry{module@\spxentry{module}!zapytania\_sqlite@\spxentry{zapytania\_sqlite}|hyperpage}{39}
+\indexentry{zapytania\_sqlite@\spxentry{zapytania\_sqlite}!module@\spxentry{module}|hyperpage}{39}
+\indexentry{raport\_domen\_pocztowych() (in module zapytania\_sqlite)@\spxentry{raport\_domen\_pocztowych()}\spxextra{in module zapytania\_sqlite}|hyperpage}{39}
+\indexentry{zawartosc\_zamowien\_w\_linii() (in module zapytania\_sqlite)@\spxentry{zawartosc\_zamowien\_w\_linii()}\spxextra{in module zapytania\_sqlite}|hyperpage}{40}
+\indexentry{terminy\_platnosci() (in module zapytania\_sqlite)@\spxentry{terminy\_platnosci()}\spxextra{in module zapytania\_sqlite}|hyperpage}{40}
+\indexentry{cennik\_opisowy() (in module zapytania\_sqlite)@\spxentry{cennik\_opisowy()}\spxextra{in module zapytania\_sqlite}|hyperpage}{40}
+\indexentry{czas\_od\_zamowienia() (in module zapytania\_sqlite)@\spxentry{czas\_od\_zamowienia()}\spxextra{in module zapytania\_sqlite}|hyperpage}{40}

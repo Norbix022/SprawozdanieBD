@@ -2,7 +2,10 @@
 
 import os
 import sys
-# Dodanie ścieżki do katalogu nadrzędnego, gdzie leży biblioteka_zapytania.py
+
+# Dodanie ścieżki do obecnego katalogu (source/) ORAZ nadrzędnego (główny folder projektu)
+# Dzięki temu autodoc znajdzie pliki .py niezależnie od tego, gdzie dokładnie je zapisałeś.
+sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('..'))
 
 # -- Project information -----------------------------------------------------
@@ -55,8 +58,8 @@ latex_documents = [
         'index', 
         'sprawozdanie-z-laboratoriow.tex', 
         'Sprawozdanie z Laboratorium: Bazy Danych',
-        'Michał Bednarczyk, Jan Balázs de Borbátviz,Norbert Antonovitch',  # Combined authors into one string
-        'manual'                         # This is now correctly the documentclass
+        'Michał Bednarczyk',  # Combined authors into one string
+        'manual'              # This is now correctly the documentclass
     ),
 ]
 
