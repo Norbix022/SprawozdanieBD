@@ -5,6 +5,7 @@ Zapytania do bazy danych
 **Autorzy:** Norbert Antonovitch, Michał Bednarczyk, Jan Balazs de Borbatviz
 
 Scieżki do wykonanych zapytan na naszej bazie:
+----------------------------------------------
 
 Zapytania SQLITE
 
