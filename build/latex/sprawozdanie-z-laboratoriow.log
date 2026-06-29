@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2026.6.28)  29 JUN 2026 01:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2026.6.28)  29 JUN 2026 01:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -840,7 +840,7 @@ st/fonts/enc/dvips/tex-gyre/q-ec.enc}] (./sprawozdanie-z-laboratoriow.toc [1
  [2]
 Chapter 1.
 LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 1
-27.
+33.
 (/usr/share/texlive/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
 File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
 ) [1
@@ -852,15 +852,15 @@ Chapter 2.
 
 ] [3] [4] [5]
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 5
-05.
+11.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
 [6]
 LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <10.95> not available
-(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 615.
+(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 621.
 LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10.95> not available
-(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 640.
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 646.
  [7]
 LaTeX Font Info:    Trying to load font information for TS1+txtt on input line 
 1.
@@ -868,7 +868,7 @@ LaTeX Font Info:    Trying to load font information for TS1+txtt on input line
 File: ts1txtt.fd 2000/12/15 v3.1
 ) [8]
 [9] [10] [11] [12] [13] [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 1604--1607
+Underfull \hbox (badness 10000) in paragraph at lines 1610--1613
 [][][][][]\T1/qtm/m/n/9 Oracle Doc-u-men-ta-tion, \T1/qtm/m/it/9 AU-DIT_TRAIL \
 T1/qtm/m/n/9 oraz in-for-ma-cje o uni-fied au-dit-ing, [][]$https : / / docs . 
 oracle . com / en / database / oracle /
@@ -878,13 +878,13 @@ oracle . com / en / database / oracle /
 [31] [32] [33]
 Chapter 3.
 
-Overfull \vbox (1.72769pt too high) detected at line 2713
+Overfull \vbox (1.72769pt too high) detected at line 2719
  []
 
 [34
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2845--2847
+Underfull \hbox (badness 10000) in paragraph at lines 2851--2853
 []\T1/qtm/b/n/10.95 Szczegóªy za-mówienia: \T1/qtm/m/n/10.95 klucz obcy (\T1/tx
 tt/m/n/10.95 id_zamowienia\T1/qtm/m/n/10.95 ), klucz obcy (\T1/txtt/m/n/10.95 i
 d_produktu\T1/qtm/m/n/10.95 ), ilo±¢,
@@ -894,19 +894,19 @@ d_produktu\T1/qtm/m/n/10.95 ), ilo±¢,
 <schemat_chen.png, id=958, 1959.57094pt x 1318.17468pt>
 File: schemat_chen.png Graphic file (type png)
 <use schemat_chen.png>
-Package pdftex.def Info: schemat_chen.png  used on input line 2880.
+Package pdftex.def Info: schemat_chen.png  used on input line 2886.
 (pdftex.def)             Requested size: 353.2655pt x 237.62325pt.
 <schemat_ie.png, id=959, 1207.51125pt x 671.50874pt>
 File: schemat_ie.png Graphic file (type png)
 <use schemat_ie.png>
-Package pdftex.def Info: schemat_ie.png  used on input line 2908.
+Package pdftex.def Info: schemat_ie.png  used on input line 2914.
 (pdftex.def)             Requested size: 353.2655pt x 196.45393pt.
  [36 <./schemat_chen.png (PNG copy)> <./schemat_ie.png>]
 Chapter 4.
 [37
 
 ]
-Underfull \vbox (badness 10000) detected at line 3026
+Underfull \vbox (badness 10000) detected at line 3032
  []
 
 [38] [39]
@@ -948,7 +948,7 @@ re/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xbtt.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/txfonts/tcxtt.pfb>
-Output written on sprawozdanie-z-laboratoriow.pdf (46 pages, 618255 bytes).
+Output written on sprawozdanie-z-laboratoriow.pdf (46 pages, 619581 bytes).
 PDF statistics:
  1125 PDF objects out of 1200 (max. 8388607)
  1046 compressed objects within 11 object streams
